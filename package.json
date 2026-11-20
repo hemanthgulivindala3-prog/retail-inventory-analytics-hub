@@ -1,0 +1,12 @@
+{
+  "name": "retail-inventory-analytics-hub",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "start:api": "npm --prefix apps/api start",
+    "dev:api": "npm --prefix apps/api run dev",
+    "dev:web": "npm --prefix apps/web run dev"
+  }
+}
